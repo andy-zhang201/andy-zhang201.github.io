@@ -19,7 +19,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
   This site is a collection of projects I have previously worked on. Please feel free to explore!
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/profile.jpeg
+profile_image: ./assets/images/profile-image/profile.jpg
 
 
 # Link your resume
