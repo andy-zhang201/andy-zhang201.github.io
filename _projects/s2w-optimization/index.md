@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Bloomba: An autonomous plant-watering robot demonstration
-description:  For my fourth year undergraduate Capstone project, I was team leader for the design and prototyping of autonomous plant watering robot. It uses a LIDAR sensor to measure its surroundings and a SLAM algorithm to navigate. We also built a custom watering arm to water pots that are placed up to 130 cm high. To accurately locate the plant pots, it can also use computer vision to identify April Tags placed on the pots.
+title: Strength-to-Weight Optimization Project
+description:  Optimizing the strength of a PMMA part using the minimum amount of material.
 
 skills: 
 - FEA/FEM
