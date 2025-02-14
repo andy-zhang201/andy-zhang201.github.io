@@ -7,5 +7,5 @@ skills:
 - 3D Printing
 - Optics
 - Camera Hardware
-main-image: /endoscope.webp 
+main-image: /endoscope_main.jpg
 ---
