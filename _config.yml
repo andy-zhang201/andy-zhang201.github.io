@@ -6,17 +6,14 @@
 # feature for the data you need to update frequently.
 
 # Main Page Setup
-
-title: 'Andrew Zhang''s Portfolio' # This is what shows up in the tab of the browser
-
-
+title: "Andrew Zhang's Portfolio" # This is what shows up in the tab of the browser
 
 # Hero Section
 name: Andrew Zhang
-headline: "We are what we repeatedly do." -Aristotle
+headline: '"We are what we repeatedly do." -Aristotle'
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Hello! My name is Andrew. I love building new things and learning concepts that allow me to achieve new results.
-  This site is a collection of projects I have previously worked on. Please feel free to explore!
+  'Hello! My name is Andrew. I love building new things and learning concepts that allow me to achieve new results.
+  This site is a collection of projects I have previously worked on. Please feel free to explore!'
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/profile.jpg
