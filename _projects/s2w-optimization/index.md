@@ -8,7 +8,7 @@ skills:
 - Topology Optimization
 - Solidworks CAD
 - Mechanics of Solids
-main-image: acrylic-sample.jpg
+main-image: /acrylic-sample.jpg
 ---
 
 ---

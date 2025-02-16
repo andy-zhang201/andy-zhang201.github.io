@@ -9,7 +9,7 @@ skills:
 - Electronics
 - 3D printing
 - Leadership
-main-image: TeamBloomba.JPG
+main-image: /TeamBloomba.JPG
 ---
 
 ---

@@ -1,5 +1,7 @@
 # Free to Engineer Portfolio Template 
-Simple and modern portfolio template for engineers. Host your portfolio for free in as little as **15 minutes**!
+With the growing emphasis on practical skills in hiring for engineers, more companies are looking at portfolios alongside traditional resumes when evaluating engineers including in mechanical, electrical, and data science. A well-crafted portfolio can showcase your projects, technical abilities, and problem-solving approach in ways that resumes alone cannot. However, creating and hosting a professional portfolio often requires significant time investment and ongoing hosting costs. This can be a barrier, especially for early-career developers and job seekers which is why I've created this free portfolio template. Spend less time on your portfolio more time innovating and engineering things!  
+
+Host your portfolio for free in as little as **15 minutes**! Check out the **demo [here](https://leea12.github.io/)**. I hope this helps!
 
 ## Getting Started:
 
@@ -18,7 +20,9 @@ Simple and modern portfolio template for engineers. Host your portfolio for free
 
    ![GitHub Use Template](/assets/readme/github-name-repository.png)
 4. Click "Create repository"
-5. **That's it!** Now, you have a portfolio webiste @ [your id].github.io
+5. **That's it!** Now, you have a portfolio webiste @ [your id].github.io. You may have to wait for up to 1 minute for github to finish building.
+6. **[Good to know]** you can see the status of your website by going to settings - pages.
+   ![GitHub Use Template](/assets/readme/github-pages.png)
 
 ## Set up Your Portfolio
 You only need to edit two files. 
@@ -35,6 +39,8 @@ After you are done. just click **"commit chages"** to apply. Give a minute or so
 - **Resume-url**: You can either link to externally stored pdf (ex. google drive) or save the pdf under assets/pdf/ folder and enter the directory  
 
 ![GitHub Use Template](/assets/readme/main-page.png)
+
+<br>
 
 - **External Links**: link your external accounts (linkedin, github, stackoverflow, medium, etc)
 ![GitHub Use Template](/assets/readme/external-link.png) 
@@ -70,7 +76,13 @@ Only the icons for the accounts that you enter will appear.
           - PolyJet Printing
           - Vacuum Casting
     ```
-        
+- **Contact Form**: you can set up the contact form to send the response to your email using [formspree](https://formspree.io/). You just need to sign up and create a new form. Then, add the 8-digit endpoint key!
+ 
+  ![formspreeimage](/assets/readme/formspree.png)
+
+  ```yaml
+  formspree-key:   https://formspree.io/f/{8-digit key}
+  ```
 
 - **(optional)** you chan change your color theme by inputting color hex code for a few variables. Feel free to be creative!
   ```yaml
@@ -96,31 +108,35 @@ For each project, you need to create a markdown file within _projects folder. I 
 #### Creating a markdown file in Github
 1. Go to **_project** folder. Make sure you are in the correct level.
 ![GitHub Use Template](/assets/readme/go-to-project-directory.png) 
-2. In the right side of the screen, click add file - create new file
+2. In the right side of the screen, click add file - create new file.  
 ![GitHub Use Template](/assets/readme/create-new-file.png) 
-3. in the available field, enter the name of the folder: **{your-project-name}** then hit "/". This will create a folder for the project 
+3. in the available field, enter the name of the folder: **{your-project-name}** then hit "/". This will create a folder for the project.   
 ![GitHub Use Template](/assets/readme/enter-folder-name.png) 
-4. create a markdown file by entering index.md. 
+4. create a markdown file by entering index.md.   
 ![GitHub Use Template](/assets/readme/index-md.png) 
-4. In the text field paste the below "front-matter" template and fill out the title, description, skills, and name of the main project image that you want to use. This is the summary of the project that will be used to display the project in the main page.
+5. In the text field paste the below "front-matter" template and fill out the title, description, skills, and name of the main project image that you want to use. This is the summary of the project that will be used to display the project in the main page. **Be careful** not to leave any space before the front matter deliminators "---". It causes syntax error, and  your page will not be built.
 
     ```md
-      ---
-      layout: post
-      title: project title
-      description:  short description of the project
-      skills: 
-        - skill 1
-        - skill 2
-      main-image: /project.webp 
-      ---
+    ---
+    layout: post
+    title: project title
+    description:  short description of the project
+    skills: 
+    - skill 1
+    - skill 2
+    main-image: /project.webp 
+    ---
     ```
-5. then click **Submit changes** to create the file.
-6. Upload your image in the same folder by clicking **Add file - upload files**.
+6. then click **Submit changes** to create the file.
+7. Upload your image in the same folder by clicking **Add file - upload files**.
+  
 ![GitHub Use Template](/assets/readme/create-new-file.png) 
-7. Drag your image file, then click **commit changes**. 
+
+8. Drag your image file, then click **commit changes**.
+    
 ![GitHub Use Template](/assets/readme/upload-files.png) 
-8. Allow a minute or so for the build. It will create a project section that looks like this below.
+
+9. Allow a minute or so for the build. It will create a project section that looks like this below.
 ![GitHub Use Template](/assets/readme/project-section.png) 
-9. If you want to add addtional details, you can go back to the index.md file and add more details below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/).
-10. I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the demo project. You can also add code blocks, blockquote, and tables. 
+10. If you want to add addtional details, you can go back to the index.md file and add more contents below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/).
+11. I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the [demo](https://leea12.github.io/)) project. You can also add code blocks, blockquote, and tables. 
