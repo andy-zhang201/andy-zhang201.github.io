@@ -21,6 +21,8 @@ Use this to have subsection if needed
 Use this to have subsection if needed
 
 ## Embedding images 
+![alt text](./TeamBloomba.JPG)
+
 ### External images
 {% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
 <span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
