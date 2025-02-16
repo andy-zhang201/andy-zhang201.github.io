@@ -14,14 +14,13 @@ main-image: /TeamBloomba.JPG
 
 ---
 ## Objectives
-Use this for the header of each section
+Lorem ipsum
 ## Outcomes
 Use this to have subsection if needed
 ## Methods Used
 Use this to have subsection if needed
 
 ## Embedding images 
-![alt text](./TeamBloomba.JPG)
 
 ### External images
 {% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
