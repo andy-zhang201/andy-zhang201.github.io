@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Strength-to-Weight Optimization Project
+title: PMMA Weight Optimization Project
 description:  Optimizing the strength of a PMMA part using the minimum amount of material.
 
 skills: 
@@ -8,32 +8,24 @@ skills:
 - Topology Optimization
 - Solidworks CAD
 - Mechanics of Solids
-main-image: /acrylic-sample.jpg
+main-image: /s2w_header_photo.png
 ---
 
 ---
 ## Objectives
-Use this for the header of each section
+
+The goal of this project was to design a part that had the highest strength-to-weight ratio in an engineering class competition. The competition also had requirements to include several holes which purposefully weaken the part, making the task more challenging. Our task was to design around those requirements and to construct a part that could support the most load with the least amount of material. 
+{% include image-gallery.html images="./images/sample_unbroken.png" height="300" alignment="center" %} 
+
 ## Outcomes
-Use this to have subsection if needed
+
+My teammate and I created a part which achieved a strength-to-weight ratio of 75.86 N/g, winning second place in our in-class competition. Our part weighed just 16 grams and held 1161 N of force before it broke.
+{% include image-gallery.html images="./images/s2w_results.png" height="400" alignment="right" %}
+
+
+
 ## Methods Used
-Use this to have subsection if needed
 
+We used Solidworks to create CAD models for the part and ANSYS FEA to conduct simulations. We also conducted topology optimization studies to further refine our designs using Solidworks Simulations. 
 
-
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
-
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
-
-
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
+{% include image-gallery.html images="./images/part_dims.png" height="350" alignment="left" %} 

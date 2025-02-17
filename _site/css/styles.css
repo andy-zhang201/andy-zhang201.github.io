@@ -645,6 +645,37 @@ footer p {
     object-fit: contain;
     align-self: flex-start;
 }
+
+.post-view .content .image-gallery .center {
+    max-height: var(--gallery-height); 
+    width: auto; 
+    max-width: 100%;
+    object-fit: contain;
+    align-self: flex-start;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-view .content .image-gallery .left {
+    max-height: var(--gallery-height); 
+    width: auto; 
+    max-width: 100%;
+    object-fit: contain;
+    align-self: flex-start;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+.post-view .content .image-gallery .right {
+    max-height: var(--gallery-height); 
+    width: auto; 
+    max-width: 100%;
+    object-fit: contain;
+    align-self: flex-start;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
   
 .post-view .content  a {
     color: #3498db;
@@ -869,6 +900,12 @@ footer p {
 
 
     /* Project Post Page */
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     .post-view {
         margin: 0;
          
