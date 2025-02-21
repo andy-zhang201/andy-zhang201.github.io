@@ -9,6 +9,7 @@ skills:
 - Solidworks CAD
 - Mechanics of Solids
 main-image: /s2w_header_photo.png
+main-image-class: img-scale-down
 ---
 
 ---
@@ -20,7 +21,7 @@ The goal of this project was to design a part that had the highest strength-to-w
 ## Outcomes
 
 My teammate and I created a part which achieved a strength-to-weight ratio of 75.86 N/g, winning second place in our in-class competition. Our part weighed just 16 grams and held 1161 N of force before it broke.
-{% include image-gallery.html images="./images/s2w_results.png" height="400" alignment="right" %}
+{% include image-gallery.html images="./images/s2w_result.png" height="400" alignment="center" %}
 
 
 
@@ -28,4 +29,4 @@ My teammate and I created a part which achieved a strength-to-weight ratio of 75
 
 We used Solidworks to create CAD models for the part and ANSYS FEA to conduct simulations. We also conducted topology optimization studies to further refine our designs using Solidworks Simulations. 
 
-{% include image-gallery.html images="./images/part_dims.png" height="350" alignment="left" %} 
+{% include image-gallery.html images="./images/part_dims.png" height="350" alignment="center" %} 

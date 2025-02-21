@@ -8,6 +8,7 @@ skills:
 - Optics
 - Camera Hardware
 main-image: /endoscope_main.jpg
+main-image-class: img-cover
 ---
 
 ---

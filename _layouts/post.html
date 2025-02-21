@@ -8,10 +8,11 @@ layout: wrapper
 <div class="post-view">
     <div class="summary">
         
-       
         {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
-        {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}       
-        <img src="{{ image_path }}" alt="{{ page.title }} image">
+        {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}     
+        {% assign img_class = page['main-image-class'] | default: "img-cover"%}     
+        
+        <img src="{{ image_path }}" alt="{{ page.title }} image" class="{{img_class}}">
         
         <div class="title-header">
             <h1>{{page.title}}</h1>
