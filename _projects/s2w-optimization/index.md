@@ -27,6 +27,10 @@ My teammate and I created a part which achieved a strength-to-weight ratio of 75
 
 ## Methods Used
 
-We used Solidworks to create CAD models for the part and ANSYS FEA to conduct simulations. We also conducted topology optimization studies to further refine our designs using Solidworks Simulations. 
+We used Solidworks to create CAD models for the part and ANSYS FEA to conduct simulations. Starting with a base part, we used simulation results from ANSYS to find areas where material could be removed. By iterating on the design, we were able to continue improving the strength-to-weight ratio until we reached our final result. Once that was done, some topology optimization studies using Solidworks Simulations to refine our results. 
+
+A design report describing our design process can be found here: https://drive.google.com/file/d/12lWFRJd0-iverU7mvI7Xfldi00CzyBaF/view?usp=sharing
+
+After testing the design, we also analyzed the validation results and wrote another report here: https://drive.google.com/file/d/1e2snMPQgfWGdiTGvvVNwI_jXVA4hODLv/view?usp=sharing 
 
 {% include image-gallery.html images="./images/part_dims.png" height="350" alignment="center" %} 

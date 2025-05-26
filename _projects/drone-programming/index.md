@@ -1,14 +1,16 @@
 ---
 layout: post
-title: Strength-to-Weight Optimization Project
-description:  Optimizing the strength of a PMMA part using the minimum amount of material.
+title: Drone Obstacle Course Programming
+description:  Coding an RRT* algorithm to plan a path through an obstacle course for a drone.
 
 skills: 
-- FEA/FEM
-- Topology Optimization
-- Solidworks CAD
-- Mechanics of Solids
-main-image: /acrylic-sample.jpg
+- Python
+- Motion Planning
+- PyBullet Simulation
+- Aerial Robotics
+# I cannot find any images???
+main-image: /acrylic-sample.jpg 
+
 ---
 
 ---
