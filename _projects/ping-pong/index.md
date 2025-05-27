@@ -8,34 +8,37 @@ skills:
 - Topology Optimization
 - Solidworks CAD
 - Mechanics of Solids
-main-image: /images/FinalAssembly/finalAssembly_1.jpg
+main-image: /finalAssembly_A.jpg
 ---
 
 ---
-## Overview
-For my product design course project, I designed and fabricated a product prototype for a ping pong ball launcher with my teammates Hammad Anwer, Vanshaj Malhotra, and Dong To Khoa. We aimed to create an educational product that would teach projectile physics to children in a fun and engaging way. 
+## Situation
+For my product design course project, I designed and fabricated a product prototype for a ping pong ball launcher with my teammates Hammad Anwer, Vanshaj Malhotra, and Dong To Khoa. Our objective was to create an educational product that would teach projectile physics to children in a fun and engaging way. 
+
+{% include image-gallery.html images="./images/CAD_1.png, ./images/CAD_2.png, ./images/FinalAssembly/finalAssembly_1.jpg" height="300" alignment="center" %} 
 
 ## Methods Used
 We researched the toy market to identify customer needs and used competitive benchmarking to position our product. In the second half, we made a mechanical design that would meet the needs of the market segment, and then constructed a prototype of our design to test and validate our concept. 
-Challenges we encountered were determining what the final price of the product should be based on market demand, manufacturing costs, and development costs, dimensioning the part geometry carefully so the launch trajectory of the ping pong ball was exactly how we intended, optimizing the part for 3D printing to minimize printing time, and then tuning our prototype to reduce the amount of deviation in the launch trajectories (added latch to improve firing, fastened base using screws instead of Velcro).
+
+{% include image-gallery.html images="./images/PostChart.png" height="300" alignment="center" %} 
+
+{% include image-gallery.html images="./images/PostChart_a.png, ./images/PostChart_b.png" height="300" alignment="center" %} 
+
+We calculated what the final price of the product should be based on a price-volume curve, manufacturing costs, product development costs, and other economic factors. On the engineering side, I was responsible for dimensioning the part geometry carefully so the launch trajectory of the ping pong ball was exactly how we intended. I also made optimizations to 3D print the design in less time, using less material, and without using supports.
+
+{% include image-gallery.html images="./images/Parts3D.jpg, ./images/Parts3D_2.jpg, ./images/Parts3D_1.jpg" height="300" alignment="center" %} 
+
+After building our first prototype, I pushed for further design improvements to reduce launch inconsistency by adding a firing latch, adding circlips to the guide rails, and modifying the cannon's base to use screw fasteners.
+{% include image-gallery.html images="./images/latch.jpg, ./images/circlips_slicer.png, ./images/FinalAssembly/BaseScrews.jpg" height="300" alignment="center" %} 
 
 ## Outcomes
-We successfully created a prototype that can hit a bucket 0.5 feet wide from 16 feet away. Using this prototype, we were able to complete a Design of Experiment that modelled the product's performance with a Response Surface. During an in-class demonstration of our product, we used our Response Surface to correctly predict the launch angle and spring extension required for our product to score inside of a target placed a random distance away. Future work on the project could improve its manufacturability using injection molding machines and add theming to the product. 
+We successfully created a prototype that can hit a bucket 0.5 feet wide from 10 feet away. Using this prototype, we modelled the product's performance using a Design of Experiment, Response Surface Methodology. During an in-class demonstration of our product, our Response Surface correctly predicted the launch angles and spring extensions required to score a ping pong ball into a target bucket placed a random distance away. Future work on the project could improve its accuracy at larger distances, create a design for injection molding that is mass produceable, and to add product theming.
 
-Here is a link to a detailed project report:
+{% include youtube-video.html id="TOLWJ3KeQ-A" autoplay= "false" width="800px"%}
 
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
+Here are the links to the full project report with **Part A** being **customer-oriented** and **Part B** being **engineering-oriented**.
 
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
+<a href="https://drive.google.com/file/d/1dIHf7zN2NqE2gJMa3IJqDIk4VCWOCA0R/view?usp=sharing "><b>Part A (Customer report)</b></a>
 
-
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://youtu.be/TOLWJ3KeQ-A
-{% include youtube-video.html id="TOLWJ3KeQ-A" autoplay= "false"%}
+<a href="https://drive.google.com/file/d/1e10AhPPHQw4kDKzEuv2YK7G8Vusxq1Wy/view?usp=sharing
+"><b>Part B (Engineering report)</b></a>

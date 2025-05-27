@@ -754,8 +754,9 @@ footer p {
 .youtube-container {
     width: 100%;
     max-width: var(--max-width);
-    margin: 0 ;
-    padding: 5px;
+    margin: auto;
+    padding: 1.5em; /* Adjusted padding for better spacing */
+    padding-top: 0px;
     text-align: center;
 
 }
@@ -763,6 +764,11 @@ footer p {
 .youtube-aspect-ratio {
     position: relative;
     width: 100%;
+
+    /* Center the video, maintaining adaptive 16:9 AR */
+    max-width: 1920px;      /* Set your desired max width */
+    margin-left: auto;     /* Center horizontally */
+    margin-right: auto;    /* Center horizontally */
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
 }
 
