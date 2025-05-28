@@ -29,7 +29,7 @@ Once the design was finalized, I moved into the manufacturing phase, making weld
 {% include image-gallery.html images="./images/coil_front.jpg, ./images/coil_side.jpg" height="300" alignment="center" %} 
 
 ## Outcomes
-The final machine successfully produced gas cooling coils to specification at half the cost compared to outsourcing them. 
+The final machine successfully produced gas cooling coils to specification at **half the cost** compared to outsourcing them. 
 
 Design changes were made to hydrogen cooling process however, and a new cooling coil design was needed. I added an extra steel drum to the machine which can bend the new coil designs to increase its cooling capabilities. The coils from the new machine worked seamlessly with the updated hydrogen cooling processes, saving significant manufacturing costs by producing them in-house.
 
