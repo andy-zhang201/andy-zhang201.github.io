@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+    <script src="/assets/js/script.js"></script>
+
+    
+    <title>Andrew Zhang's Portfolio</title>
+    <link rel="icon" href="/favicon.ico">
+
+    
+
+</head>
+<body>
+    <!-- NAVBAR -->
+     <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Andrew Zhang</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/AndrewZhang.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/AndrewZhang.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+
+     <div class="page"><link rel="stylesheet" type="text/css" href="/css/styles.css">
+<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+<div class="post-view">
+    <div class="summary">
+        
+        
+             
+             
+        
+        <img src="/_projects/c-endoscope/endoscope_main.jpg" alt="Low Cost Endoscope for Robotic Surgery image" class="img-cover">
+        
+        <div class="title-header">
+            <h1>Low Cost Endoscope for Robotic Surgery</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>A low cost digital imaging tool using the dVRK Rod Lens.</p>
+        </div>
+        <div class="skills-card">
+            <h2>Skills Used</h2> 
+            <div class="skills-list">
+                
+                <span class="skill">Research & Development</span>    
+                
+                <span class="skill">3D Printing</span>    
+                
+                <span class="skill">Optics</span>    
+                
+                <span class="skill">Camera Hardware</span>    
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class="content">
+        <hr />
+<h2 id="situation">Situation</h2>
+
+<p>During my summer research project for my Masters of Engineering, I investigated how to build a low-cost stereo endoscope imaging tool for robotic surgery. Current endoscopic imaging systems from Olympia or Stryker typically cost over $10,000 to purchase. My project’s objective was to find a low-cost alternative that could obtain images of comparable color-accuracy and resolution, as well as stream video under comparable amounts of latency.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./images/Olympus.jpg" alt="./images/Olympus.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="methods-used">Methods Used</h2>
+
+<p>Although entire medical imaging systems are expensive to obtain, their individual parts can be purchased for much less. A cost-effective way for imaging through an endoscope is to combine the lens of an endoscope with camera sensor electronics to create a custom imaging tool.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./images/endo_proximal.jpg" alt="./images/endo_proximal.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./images/endo_tip.jpg" alt="./images/endo_tip.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>I learned how to create my own digital camera using commercial hardware bought piecemeal from the electronics market, and combined it with custom optics made from the endoscope. I also designed new cases to hold the lens and camera together and then 3D printed them.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./images/bluecase.jpg" alt="./images/bluecase.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./images/blackcase.jpg" alt="./images/blackcase.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<p>Creating my own digital camera involved learning a lot about camera sensor hardware and how to program them. It also required me to learn about camera optics, camera calibration, and objective measures of color quality. Towards the end of the project, I used what I learned to design an experiment with the purpose of measuring my custom imaging tool’s performance. I used the tool to take test images of a color chart, then I used MATLAB to analyze them and determine how far away the color values were from expected. The CIELAB Standard had provided much useful guidance towards this objective.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./endoscope_main.jpg" alt="./endoscope_main.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="outcomes">Outcomes</h2>
+
+<p>Using a camera sensor with a lens it wasn’t designed to work with had discolored the images, however, I was able to resolve the problem by recalibrating the sensor. Using a different camera sensor had improved the resolution of the imaging tool and allowed it to image fine details. However, the results from the color accuracy experiment were inconclusive, and further work needs to be done to objectively measure the color quality of the tool. Although timing the video lag to stream to a monitor using the tool showed latency, it was seamless and smooth when viewed by the eye and could be used to take videos.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./images/discolored.jpg" alt="./images/discolored.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/projects/c-endoscope//./images/good.jpg" alt="./images/good.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+
+    </div>
+</div>
+
+</div>
+
+     
+</body>
+
+    <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href=/assets/resume/AndrewZhang.pdf target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+    </div>
+    <div class="license">
+        <span>For any question or suggestion for the portfolio template or projects, reach out <a class="help" href="mailto:aram.lee12@gmail.com"> Here</a> </span>
+        <p>FreeToEngineer portfolio template © 2025 by Aram Lee is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a></p>
+    </div>
+</footer>
+
+</html>
