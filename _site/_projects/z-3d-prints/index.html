@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+    <script src="/assets/js/script.js"></script>
+
+    
+    <title>Andrew Zhang's Portfolio</title>
+    <link rel="icon" href="/favicon.ico">
+
+    
+
+</head>
+<body>
+    <!-- NAVBAR -->
+     <!-- _includes/nav.html -->
+<nav>
+    <div class="left">
+        <a href="/">Andrew Zhang</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="right desktop-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/AndrewZhang.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <a href="/">
+            <span>Home</span>
+        </a>
+        <a href="/projects/">
+            <span>Projects</span>
+        </a>
+        <a href="/assets/resume/AndrewZhang.pdf" target="_blank" rel="noopener noreferrer">
+            <span>Resume</span>
+        </a>
+    </div>
+</nav>
+
+     <div class="page"><link rel="stylesheet" type="text/css" href="/css/styles.css">
+<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+<div class="post-view">
+    <div class="summary">
+        
+        
+             
+             
+        
+        <img src="/_projects/z-3d-prints/3d-brain.jpg" alt="3D Printing an MRI Brain Scan image" class="img-cover">
+        
+        <div class="title-header">
+            <h1>3D Printing an MRI Brain Scan</h1>
+        </div>
+        
+        <div class="project-description">
+            <h2>Project Overview</h2>
+            <p>A friend of mine got an MRI of their brain so I offered to 3D print it for them.</p>
+        </div>
+        <div class="skills-card">
+            <h2>Skills Used</h2> 
+            <div class="skills-list">
+                
+                <span class="skill">3D Printing</span>    
+                
+                <span class="skill">3D Slicer</span>    
+                
+                <span class="skill">MeshMixer</span>    
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class="content">
+        <hr />
+<h2 id="situation">Situation</h2>
+
+<p>The goal of this project was to 3D print a detailed model of my friend’s brain for their enjoyment and a desk decoration.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/z-3d-prints/./images/brain-top-half.jpg" alt="./images/brain-top-half.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="methods-used">Methods Used</h2>
+
+<p>The MRI data came in a DICOM format which I had to slice using 3D slicer. The scan data also imaged my friend’s skull so I had to use the software to also segment the images and separate the brain from the rest of the head. After some model cleaning and refining, I exported the data to MeshMixer where I did some further cleaning to reduce the file size as the scan data had a much higher resolution than needed. Finally, I exported the brain model in 3 layers so I can 3D print each piece individually. Printing piece by piece allowed me to avoid printing overnight which disturbs my sleep due to the fan noise. Once all the pieces were done, I assembled it into a single, high-quality model.</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/z-3d-prints/./images/printing.jpg" alt="./images/printing.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+<h2 id="outcomes">Outcomes</h2>
+
+<p>My friend loved the gift!</p>
+
+<div class="image-gallery" style="--gallery-height: 300px;">
+  
+      
+      
+          
+          <img src="/_projects/z-3d-prints/./images/3d-brain.jpg" alt="./images/3d-brain.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/z-3d-prints/./images/3d-brain2.jpg" alt="./images/3d-brain2.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+      
+      
+          
+          <img src="/_projects/z-3d-prints/./images/brain-bottom.jpg" alt="./images/brain-bottom.jpg" loading="lazy" class="center" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
+      
+  
+</div>
+
+    </div>
+</div>
+
+</div>
+
+     
+</body>
+
+    <footer>
+    <div class="footer-content">
+        <div class="links">
+            <a href="/">
+                <span>Home</span>
+            </a>
+            <a href="/projects/">
+                <span>Projects</span>
+            </a>
+            <a href=/assets/resume/AndrewZhang.pdf target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+    </div>
+    <div class="license">
+        <span>For any question or suggestion for the portfolio template or projects, reach out <a class="help" href="mailto:aram.lee12@gmail.com"> Here</a> </span>
+        <p>FreeToEngineer portfolio template © 2025 by Aram Lee is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a></p>
+    </div>
+</footer>
+
+</html>

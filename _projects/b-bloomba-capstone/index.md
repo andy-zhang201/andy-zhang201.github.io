@@ -43,8 +43,11 @@ Thanks to the efforts of my team and I, our project won **2nd place for Best Ove
 
 Future work on the project should integrate the autonomy stack with our April Tags node to allow the robot to seek out plants and water them autonomously. A user interface should be developed to make the robot intuitive to use, and the robot’s battery should be stress tested to determine how many plants it can water before it needs to recharge.
 
-Our project poster summarizes our robot's capabilities: <a href="https://drive.google.com/file/d/1s82e8F0W3_51T0VU1_VDnTmWZpQ_koFt/view?usp=sharing"> <b>Capstone Showcase Poster</b> </a>
+Our project poster summarizes our robot's capabilities: <a href="https://drive.google.com/file/d/1s82e8F0W3_51T0VU1_VDnTmWZpQ_koFt/view?usp=sharing"> <b>Capstone Showcase Poster (PDF)</b> </a>
+
+{% include image-gallery.html images="./images/poster.png" height="550" alignment="center" %} 
 
 For more information, please look at our final report: <a href="https://drive.google.com/file/d/1VrwP-gLmM_8kJhrKf-MG7TYiCl2okHa1/view?usp=sharing
 "><b>Team Bloomba Capstone Final Report</b></a>
 
+We also made a repository for our software: <a href="https://github.com/andy-zhang201/bloomba.git"><b>Bloomba GitHub</b><a>

@@ -709,6 +709,7 @@ footer p {
 .post-view .content ul, ol {
     padding-left: 20px;
     margin: 1em 0;
+    font-size: calc(9px + 0.5vw);
   }
   
 .post-view .content blockquote {
@@ -779,6 +780,22 @@ footer p {
     width: 100%;
     height: 100%;
 } 
+
+.youtube-aspect-ratio-iphone {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 177.78%;    /* 16/9 * 100 = 177.78% for 9:16 aspect ratio */
+}
+
+.youtube-aspect-ratio-iphone iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 iframe {
     display: block;
