@@ -101,6 +101,7 @@ nav .mobile-nav a span:last-child:hover{
     color: var(--text-color);
     background-color: var(--light-background-color);
     border-radius: 10px;
+    padding: 3px 10px;
 }
 
 /* Navbar Mobile Menu Button */

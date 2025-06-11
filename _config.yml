@@ -10,10 +10,9 @@ title: "Andrew Zhang's Portfolio" # This is what shows up in the tab of the brow
 
 # Hero Section
 name: Andrew Zhang
-headline: '"We are what we repeatedly do." -Aristotle'
-description: >- # dont remove this line. this will ignore all new lines until the next section
-  'Hello! My name is Andrew. I love building  things and learning new concepts on the way.
-  This site is a collection of projects I have previously worked on. Please feel free to explore!'
+headline: #“A mind that is stretched by a new experience can never go back to its old dimensions.” - Oliver Wendell Holmes Jr.
+description: >-
+  I am a mechanical engineer with a passion for product design and robotics, and I am currently seeking full-time mechanical engineering roles. This site’s purpose is to showcase the various projects I have had the opportunity to work on and the competencies I have gained as a result. I hope you enjoy exploring my collection, and don’t hesitate to reach out if you see something you like or have any questions!
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/profile.jpg
@@ -21,14 +20,14 @@ profile_image: ./assets/images/profile-image/profile.jpg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: /assets/resume/AndrewZhang.pdf
+resume-url: https://drive.google.com/file/d/1jsii_e5SyckJemHekGMcqHE0WzDubciO/view?usp=sharing
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
+  linkedin:     # https://www.linkedin.com/in/{your url slug} 
+  github:     # https://github.com/{your url slug} 
+  stackoverflow:       # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 

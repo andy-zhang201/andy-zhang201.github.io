@@ -67,8 +67,9 @@
                 </span>
                 {% endif %}
             </h2>
-            
-            <h3> {{site.headline}} </h3>
+            {%if site.headline %}
+                <h3> {{site.headline}} </h3>
+            {%endif%}
             <p> {{site.description}}</p>
             <div class="links">
                 <a href="#projects">
