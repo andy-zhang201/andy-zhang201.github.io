@@ -12,6 +12,8 @@
     padding: 0;
     box-sizing: border-box;
 
+    /* outline: 1px solid red; */
+
 }
 
 html {
@@ -19,11 +21,11 @@ html {
 }
 
 body {
-    padding: 0 50px;
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
     max-width: 1200px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 a {
