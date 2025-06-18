@@ -18,28 +18,36 @@ My final year engineering capstone project was an autonomous plant watering robo
 
 {% include image-gallery.html images="./images/OfficeMap.png, ./images/Plants.png" height="300" alignment="center" %} 
 
+<span style="display: block; font-style: italic; text-align: center;">Left: Office floor map. / Right: The plants to be watered. Some of them were on elevated shelves. </span>
+
 ## Methods Used
 My role in the team was to take leadership of the overall robot design and ensure that each system was integrated coherently. I used project management practices such as setting milestones, Gantt charts for scheduling, and design phase reviews to make collective, informed decisions on our next steps. I talked to each subsystem lead to understand their requirements, and when conflicts arose I would bring people together to resolve them. 
 
 {% include image-gallery.html images="./images/Robot Design.png" height="300" alignment="center" %} 
+<span style="display: block; font-style: italic; text-align: center;">A high-level conceptual design for the robot. </span>
 
 {% include image-gallery.html images="./images/ben_assemble.jpg, ./images/ben_finished.jpg" height="300" alignment="center" %} 
+<span style="display: block; font-style: italic; text-align: center;">Left: Assembling our watering arm. / Right: The watering arm is done! </span>
+
 
 I was fascinated by the computer vision aspect of the project and also implemented software to allow the robot to detect plant pots and measure how high they are from the ground. I took the lead in developing an April Tags detection feature using ROS2 and Python for the robot platform, for which we used the iRobot Create 3. I calibrated a desktop webcamera to discover its optic parameters, and then used an apriltags library to detect visual fiducials using a Raspberry Pi 4. I wrote a ROS2 node using Python to take detections from the webcamera and calculate their corresponding tag’s position in space. Doing so allowed the robot to measure where the plant pots were and to move into position where it could water them.
 
 {% include youtube-video.html id="7-nJhi6nrz0" autoplay= "false" width="800px"%}
+<span style="display: block; font-style: italic; text-align: center;"> Moving the tag back and forth from the robot's vision camera (mounted on the laptop) told it how far away it was from a plant and to approach or back away from the plant. </span>
 
 
 ## Outcomes
 We made a custom chassis for mounting the sensors to the robot, the watering arm, and a 4L tank. An electrical system was also built to power the pump and to move the watering arm with an Arduino MC board. Our robot could travel to all the plants in the office and water them using remote control, proving the functionality of our hardware systems.
 
 {% include youtube-video.html id="Yv5cJ6PL378" autoplay= "false" width="800px"%}
+<span style="display: block; font-style: italic; text-align: center;"> Testing our robot inside of the offices. It is able to navigate without colliding with any walls or obstacles. </span>
 
 Running on a Raspberry Pi 4, our autonomy stack was able to generate a map of the entire office and use it to find its location using SLAM. Our robot could also detect April Tags to measure how tall it needed to raise its watering arm and what position it needed to reach to water it.
 
 Thanks to the efforts of my team and I, our project won **2nd place for Best Overall Capstone Project** in the end of year showcase!
 
 {% include image-gallery.html images="./TeamBloomba.JPG" height="600" alignment="center" %} 
+<span style="display: block; font-style: italic; text-align: center;"> Our team at the Capstone showcase. Thanks to our teamwork, we achieved great results!</span>
 
 Future work on the project should integrate the autonomy stack with our April Tags node to allow the robot to seek out plants and water them autonomously. A user interface should be developed to make the robot intuitive to use, and the robot’s battery should be stress tested to determine how many plants it can water before it needs to recharge.
 

@@ -27,6 +27,7 @@ Design was accelerated thanks to McMaster-Carr’s library of CAD parts and the 
 Once the design was finalized, I moved into the manufacturing phase, making weld drawings for joining the strut channels, drawings for specifying where to drill holes in the frame, and detailed assembly instructions for how to put the machine together. Once the parts came in, I oversaw the installation and operational setup of the machine by coordinating and conducting assembly with other colleagues. 
 
 {% include image-gallery.html images="./images/coil_front.jpg, ./images/coil_side.jpg" height="300" alignment="center" %} 
+<span style="display: block; font-style: italic; text-align: center;">Left: Front View. / Right: Side View.</span>
 
 ## Outcomes
 The final machine successfully produced gas cooling coils to specification at **half the cost** compared to outsourcing them. 
@@ -34,3 +35,4 @@ The final machine successfully produced gas cooling coils to specification at **
 Design changes were made to hydrogen cooling process however, and a new cooling coil design was needed. I added a steel drum extension to the machine to bend the new coil designs and increase its cooling capabilities. The coils from the new machine worked seamlessly with the updated hydrogen cooling processes, saving significant manufacturing costs.
 
 {% include image-gallery.html images="./images/coil_final.jpg, ./images/coil_top.jpg" height="300" alignment="center" %} 
+<span style="display: block; font-style: italic; text-align: center;"> Sample coils from the machine.</span>

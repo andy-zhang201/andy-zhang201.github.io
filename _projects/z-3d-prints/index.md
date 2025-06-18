@@ -18,6 +18,8 @@ main-image-class: img-cover
 The goal of this project was to 3D print a detailed model of my friend's brain for their enjoyment and a desk decoration.
 
 {% include image-gallery.html images="./images/brain-top-half.jpg" height="300" alignment="center" %} 
+<span style="display: block; font-style: italic; text-align: center;"> 3D printing the top part of their brain. </span>
+
 
 ## Methods Used
 
@@ -25,8 +27,12 @@ The MRI data came in a DICOM format which I had to slice using 3D slicer. The sc
 
 {% include image-gallery.html images="./images/printing.jpg" height="300" alignment="center" %} 
 
+<span style="display: block; font-style: italic; text-align: center;"> The first few layers are coming out well. </span>
+
 ## Outcomes
 
 My friend loved the gift! 
 
 {% include image-gallery.html images="./images/3d-brain.jpg, ./images/3d-brain2.jpg, ./images/brain-bottom.jpg" height="300" alignment="center" %} 
+<span style="display: block; font-style: italic; text-align: center;"> Multiple views of the final assembled brain showing great detail. </span>
+
